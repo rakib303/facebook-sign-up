@@ -1,0 +1,276 @@
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+
+/*Start header area */
+.header{
+	background:#3D5A94;
+	padding:8px 0;
+}
+.header::after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.container{
+	width:75%;
+	margin:auto;
+	max-width:1000px;
+	
+}
+.logo-area{
+	width:30%;
+	float:left;
+	display:block;
+}
+.login-area{
+	width:70%;
+	float:left;
+	color:#fff;
+}
+.login-area form{
+	float:right;
+}
+.login-area form label, input{
+	display:block;
+}
+.login-area form .email, .password, .login{
+	float:left;
+	margin-right:14px;
+}
+.logo-area h2{
+	width:150px;
+	margin-top:12px;
+}
+.logo-area h2 a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.login-area form label{
+	font-size:15px;
+}
+.login-area form input[type="text"],
+.login-area form input[type="password"]{
+	border:1px solid black;
+	font-size:14px;
+	padding:0 4px;
+	color:red;
+}
+.login-area form a{
+text-decoration:none;
+font-size:13px;
+COLOR:#6C8CBD;
+}	
+.password a:hover{
+	text-decoration:underline;
+}
+.login-area form .login input[type="submit"]{
+	background:#49649B;
+	border:1px solid black;
+	color:#fff;
+	margin-top:17px;
+	font-weight:bold;
+}
+/* End header area */
+
+/* Start Sign Up section area */
+.signup-area{
+	background:linear-gradient(#fff,#D0D3E2);
+}
+.signup-area{
+	padding-bottom:20px;
+}
+.signup-area::after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.left-area{
+	width:55%;
+	float:left;
+}
+.right-area{
+	width:45%;
+	float:left;
+}
+.left-area p{
+	color:#0e385f;
+	font-size:20px;
+	font-weight:600px;
+	width:90%;
+}
+.left-area img{
+	width:90%;
+}
+.right-area h4{
+	font-weight:400;
+	
+}
+.right-area h1{
+	font-size:33px;
+	margin-bottom:7px;
+	color:gray;
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+	width:100%;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding: 8px 10px;
+	font-size:18px;
+	margin:6px 0;
+}
+.full-name{
+	overflow:hidden;
+}
+.first-name{
+width:48%;
+float:left;
+margin-right:4%;
+}
+.surname{
+width:48%;
+float:left;
+}	
+.birthday{
+	overflow:hidden;
+	
+}
+.birthday h4{
+	margin-top:0;
+	margin-bottom:5px;
+}
+.birth-date{
+	overflow:hidden;
+	margin-right:5px;
+	float:left;
+	width:200px;
+	
+}
+.birth-date select{
+	border:1px solid #ccc;
+	padding:5px;
+	float:left;
+}
+.birth-link{
+	float:left;
+	width:130px;
+	line-height:.99;
+	display:block;
+}
+.birth-link a{
+	font-size:13px;
+	text-decoration:none;
+}
+.birth-link a:hover{
+	text-decoration:underline;
+}
+form{
+	overflow:hidden;
+}
+.gender{
+	overflow:hidden;
+}
+.gender label{
+	COLOR:#585F67;
+}	
+#male, #female{
+	display:inline-block;
+}
+.text-box p{
+	font-size:12px;
+	color:#777;
+}
+.text-box a{
+	text-decoration:none;
+}
+.text-box a:hover{
+	text-decoration:underline;
+}
+
+.btn input{
+	background:#63AA4C;
+	border-style:solid;
+	padding:7px 22px;
+	min-width:194px;
+	border-radius:7px;
+	color:white;
+	font-weight:bolder;
+	
+}
+.signup-area{
+	margin-bottom:15px;
+}
+.btn input:hover{
+	cursor:pinter;
+}
+.btn{
+	margin-bottom:15px;
+}
+.business a{
+	text-decoration:none;
+	color:#5F6891;
+	font-size:13px;	
+}
+.business a:hover{
+	text-decoration:underline;
+}
+.business {
+	color:gray;
+}
+/* End Sign Up section area */
+
+/*---Footer area start--*/
+.footer{
+padding:20px 0;
+}
+
+.footer ul{
+	padding:0;
+	margin:0;
+}
+	.footer ul li{
+		list-style:none;
+		display:inline-block;
+		padding:0;
+		margin-left:0;
+		margin-right:7px;
+	}
+	.footer a{
+		text-decoration:none;
+		font-size:13px;
+	}
+	.z{
+		margin-top:15px;
+	}
+	span{
+font-size:11px;
+	}		
+.uk{
+	color:gray;
+}
+.plus{
+	font-size:20px;
+	border:1px solid gray;
+	padding:1px 3px;
+	font-weight:bolder;
+}
+hr{
+	border:none;
+	border-bottom:1px solid gray;
+}
+/*--footer area end--*/
+
+
+
+
+
+
+
+
+
+
